@@ -13,7 +13,7 @@ import java.io.UnsupportedEncodingException;
  * 希望大家支持我的博客: http://www.yl-blog.com
  */
 
-public class Test {
+public class SPTest {
 
 //	网关IP地址  ：120.76.76.210
 //	网关端口 ：8000
@@ -24,19 +24,19 @@ public class Test {
 //	企业提供IP  ：118.212.137.131
 //	监听端口：9091
 
-    static String serverIP = "120.76.76.210";
-    static int serverPort = 8000;
-    static String loginName = "500219";
-    static String passWord = "Kg5TEg";
-    static String SPNumber = "1967" + "000001";
+    static String serverIP = "127.0.0.1";
+    static int serverPort = 8801;
+    static String loginName = "123456";
+    static String passWord = "0555";
+    static String SPNumber = "10659999";
     static String ChargeNumber = "1967";
     static String mobileNo = "";
-    static String[] userNumber = {"18679191781"};
+    static String[] userNumber = {"13064120912"};
 
-    static int localPort = 8801;
-    static short loginType = 1;
+    static int localPort = 8802;
+    static int loginType = 1;
 
-    static String corpId = "58220";
+    static String corpId = "99999";
     static String ServiceType = "99990001"; //业务代码，由SP定义
 
     public static void testMT() throws Exception {
